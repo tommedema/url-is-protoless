@@ -2,7 +2,7 @@ const url = require('url')
 
 /**
  * Returns if a url does not have a protocol, while still representing a path.
- * @param {string} url - the url to check
+ * @param {string} tUrl - the url to test
  *
  * @example
  * const isProtoless = require('url-is-protoless')
