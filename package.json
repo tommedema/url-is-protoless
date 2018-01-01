@@ -1,0 +1,36 @@
+{
+  "name": "url-is-protoless",
+  "version": "0.1.0",
+  "description": "An incredibly simple utility to check if a given url does not have a protocol, while still representing a path.",
+  "homepage": "https://github.com/tommedema/url-is-protoless",
+  "bugs": {
+    "url": "https://github.com/tommedema/url-is-protoless/issues",
+    "email": "tommedema@gmail.com"
+  },
+  "repository": "git@github.com:tommedema/url-is-protoless.git",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/standard/bin/cmd.js && ./node_modules/mocha/bin/mocha",
+    "standard": "./node_modules/standard/bin/cmd.js",
+    "standard fix": "./node_modules/standard/bin/cmd.js --fix",
+    "docs": "./node_modules/documentation/bin/documentation.js lint src/** && ./node_modules/documentation/bin/documentation.js build src/** -f md >> README.md"
+  },
+  "keywords": [
+    "url",
+    "uri",
+    "relative",
+    "absolute",
+    "protocol"
+  ],
+  "author": {
+    "name": "Tom Medema",
+    "email": "tommedema@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "documentation": "^5.3.2",
+    "mocha": "^3.5.3",
+    "should": "^13.1.0",
+    "standard": "^10.0.3"
+  }
+}
